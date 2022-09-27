@@ -17,7 +17,6 @@ export class NegociacaoController {
 		const negociacao = this.criaNegociacao();
 		this.negociacoes.adiciona(negociacao);
 		this.limparFormulario();
-
 		console.log(this.negociacoes.lista());
 	}
 
@@ -33,7 +32,6 @@ export class NegociacaoController {
 		this.inputData.value = '';
 		this.inputQuantidade.value = '';
 		this.inputValor.value = '';
-
 		this.inputData.focus();
 	}
 }
