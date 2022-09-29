@@ -9,7 +9,7 @@ export function escapar(
 		let retorno = metodoOriginal.apply(this, args);
 
 		if (typeof retorno === 'string') {
-			console.log(`@escape em ação na classe ${this.constructor.name} para o método ${propertKey}`);
+			// console.log(`@escape em ação na classe ${this.constructor.name} para o método ${propertKey}`);
 			retorno = retorno.replace(/<script>[\s\S]*?<\/script>/, '');
 		}
 
