@@ -9,3 +9,4 @@ export function inspect(target, propertKey, descriptor) {
     };
     return descriptor;
 }
+//# sourceMappingURL=inspetc.js.map

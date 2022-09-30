@@ -10,3 +10,4 @@ export class View {
         this.elemento.innerHTML = this.template(model);
     }
 }
+//# sourceMappingURL=view.js.map

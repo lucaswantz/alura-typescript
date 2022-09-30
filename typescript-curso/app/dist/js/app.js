@@ -15,3 +15,4 @@ if (!botaoImporta) {
 botaoImporta.addEventListener('click', () => {
     controller.importaDados();
 });
+//# sourceMappingURL=app.js.map
